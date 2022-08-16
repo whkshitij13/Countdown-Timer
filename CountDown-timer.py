@@ -20,7 +20,7 @@ def Main():
     stopWatch.pack(side=TOP)
     Bottom = Frame(root, width=600)
     Bottom.pack(side=BOTTOM)
-    Start = Button(Bottom, text='Start',
+    Start = Button(Bottom, text='Start/Resume',
                    command=stopWatch.Start, width=10, height=2)
     Start.pack(side=LEFT)
     Stop = Button(Bottom, text='Stop',
